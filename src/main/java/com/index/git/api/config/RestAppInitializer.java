@@ -1,4 +1,4 @@
-package com.index.rest.config;
+package com.index.git.api.config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

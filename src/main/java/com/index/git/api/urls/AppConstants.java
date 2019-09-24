@@ -1,4 +1,4 @@
-package com.index.rest.urls;
+package com.index.git.api.urls;
 
 public interface AppConstants {
 

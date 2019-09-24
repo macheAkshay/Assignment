@@ -1,8 +1,11 @@
-package com.index.github.bean;
+package com.index.github.api.bean;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 @JsonIgnoreProperties(ignoreUnknown=true)
+@JsonInclude(value = Include.NON_EMPTY)
 public class GitHubProject {
 
 	private int id;
