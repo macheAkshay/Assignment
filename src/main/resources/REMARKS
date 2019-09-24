@@ -1,0 +1,17 @@
+
+Use following Urls to Consume Api's
+
+1) To get Single response from both Api's
+	/Assignment/api
+
+2) To get all users and their projects from GitHub
+	/Assignment/api/github
+
+3) To filter GitHub projects by user
+	/Assignment/api/github/{user_name}
+
+4) To get all users and their projects from GitLab
+	/Assignment/api/gitlab
+
+5) To filter GitLab projects by user
+	/Assignment/api/gitlab/{user_name}
