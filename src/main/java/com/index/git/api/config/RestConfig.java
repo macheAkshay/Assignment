@@ -14,7 +14,6 @@ public class RestConfig {
 	
 	static {
 		
-		System.out.println("RestConfig Loaded...!");
 		logger.info("RestConfig Loaded...!");
 	}
 }

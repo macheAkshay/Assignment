@@ -85,14 +85,13 @@ public class GitLabProject {
 		this.visibility = visibility;
 	}
 
-	public String getSource() {
+	public String getProjectSource() {
 		return projectSource;
 	}
 
-	public void setSource(String source) {
-		this.projectSource = source;
+	public void setProjectSource(String projectSource) {
+		this.projectSource = projectSource;
 	}
-
 
 	@Override
 	public String toString() {

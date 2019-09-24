@@ -3,7 +3,6 @@ package com.index.git.api.controller;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,8 +19,6 @@ import com.index.gitlab.api.bean.GitLabProject;
 //@RequestMapping(value = "/api")
 public class CommonController {
 
-	private static Logger LOGGER = Logger.getLogger(CommonController.class);
-	
 	@Autowired
 	GitHubService gitHubService;
 	
@@ -31,13 +28,11 @@ public class CommonController {
 	
 	static {
 		
-		LOGGER.info("Common Controller Loaded...!");
 	}
 	
 	@RequestMapping()
 	public void m1()
 	{
-		LOGGER.error("No mapping found for this Url");
 		throw new ResourceNotFound("No Maaping for this url");
 	}
 	

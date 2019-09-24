@@ -2,7 +2,6 @@ package com.index.git.api.controller;
 
 import java.util.List;
 
-import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,21 +19,16 @@ import com.index.gitlab.api.bean.GitLabProject;
 @RequestMapping(value = "/api/gitlab")
 public class GitLabController {
 
-	private static final Logger LOGGER = Logger.getLogger(GitLabController.class);
-	
 	@Autowired
 	GitLabServiceImpl service;
 	
 	static {
 		
-		LOGGER.info("GitLabController Loaded...!");
 	}
 	
 	@GetMapping
 	public List<GitLabProject> getAllUsersAndProjects()
 	{
-		LOGGER.info("GitLab - getAllUsersAndProjects() invoked...!");
-		
 		ResponseEntity<List<GitLabProject>> response = service.getUsersAndProjects();
 		
 		return response.getBody();

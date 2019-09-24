@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22390" started-at="2019-09-24T20:53:57Z" finished-at="2019-09-24T20:54:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22390" started-at="2019-09-24T20:53:57Z" finished-at="2019-09-24T20:54:19Z">
+      <class name="com.index.git.api.test.GitHubTest">
+        <test-method status="PASS" signature="createDaoObject()[pri:0, instance:com.index.git.api.test.GitHubTest@6767c1fc]" name="createDaoObject" is-config="true" duration-ms="62" started-at="2019-09-24T20:53:57Z" finished-at="2019-09-24T20:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDaoObject -->
+        <test-method status="PASS" signature="createDaoObject()[pri:0, instance:com.index.git.api.test.GitLabTest@29ee9faa]" name="createDaoObject" is-config="true" duration-ms="2" started-at="2019-09-24T20:53:57Z" finished-at="2019-09-24T20:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDaoObject -->
+        <test-method status="PASS" signature="hasProjects()[pri:0, instance:com.index.git.api.test.GitHubTest@6767c1fc]" name="hasProjects" duration-ms="5794" started-at="2019-09-24T20:53:57Z" finished-at="2019-09-24T20:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasProjects -->
+        <test-method status="PASS" signature="hasRepositories()[pri:0, instance:com.index.git.api.test.GitHubTest@6767c1fc]" name="hasRepositories" duration-ms="1391" started-at="2019-09-24T20:54:03Z" finished-at="2019-09-24T20:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasRepositories -->
+        <test-method status="PASS" signature="invalidUserName()[pri:0, instance:com.index.git.api.test.GitHubTest@6767c1fc]" name="invalidUserName" duration-ms="324" started-at="2019-09-24T20:54:04Z" finished-at="2019-09-24T20:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+        <test-method status="PASS" signature="isNull()[pri:0, instance:com.index.git.api.test.GitHubTest@6767c1fc]" name="isNull" duration-ms="4" started-at="2019-09-24T20:54:04Z" finished-at="2019-09-24T20:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNull -->
+        <test-method status="PASS" signature="isValidUserName()[pri:0, instance:com.index.git.api.test.GitHubTest@6767c1fc]" name="isValidUserName" duration-ms="587" started-at="2019-09-24T20:54:04Z" finished-at="2019-09-24T20:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isValidUserName -->
+      </class> <!-- com.index.git.api.test.GitHubTest -->
+      <class name="com.index.git.api.test.GitLabTest">
+        <test-method status="PASS" signature="hasProjects()[pri:0, instance:com.index.git.api.test.GitLabTest@29ee9faa]" name="hasProjects" duration-ms="1444" started-at="2019-09-24T20:54:05Z" finished-at="2019-09-24T20:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasProjects -->
+        <test-method status="PASS" signature="hasRepositories()[pri:0, instance:com.index.git.api.test.GitLabTest@29ee9faa]" name="hasRepositories" duration-ms="7687" started-at="2019-09-24T20:54:06Z" finished-at="2019-09-24T20:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasRepositories -->
+        <test-method status="PASS" signature="invalidUserId()[pri:0, instance:com.index.git.api.test.GitLabTest@29ee9faa]" name="invalidUserId" duration-ms="1161" started-at="2019-09-24T20:54:14Z" finished-at="2019-09-24T20:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserId -->
+        <test-method status="PASS" signature="isNull()[pri:0, instance:com.index.git.api.test.GitLabTest@29ee9faa]" name="isNull" duration-ms="4" started-at="2019-09-24T20:54:15Z" finished-at="2019-09-24T20:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNull -->
+        <test-method status="PASS" signature="isValidUserId()[pri:0, instance:com.index.git.api.test.GitLabTest@29ee9faa]" name="isValidUserId" duration-ms="3799" started-at="2019-09-24T20:54:15Z" finished-at="2019-09-24T20:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isValidUserId -->
+      </class> <!-- com.index.git.api.test.GitLabTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
