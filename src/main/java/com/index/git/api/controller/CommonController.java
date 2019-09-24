@@ -31,7 +31,7 @@ public class CommonController {
 	}
 	
 	@RequestMapping()
-	public void m1()
+	public void defaultHandler()
 	{
 		throw new ResourceNotFound("No Maaping for this url");
 	}
